@@ -1,9 +1,8 @@
-<div class="container mx-auto p-8 space-y-8">
-	<h1 class="h1">Hello Skeleton</h1>
-	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-	<section>
-		<a class="btn variant-filled-primary" href="https://kit.svelte.dev/">SvelteKit</a>
-		<a class="btn variant-filled-secondary" href="https://tailwindcss.com/">Tailwind</a>
-		<a class="btn variant-filled-tertiary" href="https://github.com/">GitHub</a>
-	</section>
+<div class="flex h-full">
+	<div class="border-surface-100-800-token container mx-auto space-y-8 border-r-2 p-8">
+		<div class="placeholder h-full">Calendar</div>
+	</div>
+	<div class="container mx-auto space-y-8 p-8 flex-grow">
+		<div class="placeholder h-full">Current event</div>
+	</div>
 </div>
